@@ -1,0 +1,83 @@
+/* Import the fonts */
+
+@font-face{
+    font-family: "Raleway-regular";
+    src: url('../fonts/Raleway-Medium.ttf');
+}
+
+@font-face{
+    font-family: "Raleway-semibold";
+    src: url('../fonts/Raleway-SemiBold.ttf');
+}
+
+@font-face{
+    font-family: "Raleway-bold";
+    src: url('../fonts/Raleway-Bold.ttf');
+}
+
+@font-face{
+    font-family: "Raleway-black";
+    src: url('../fonts/Raleway-Black.ttf');
+}
+
+/* Color's variable */
+
+:root{
+    --primary: #EEBF00;
+    --secondary:#232838;
+    --ternary:#6C6C6C;
+    --danger:#FE4545;
+    --pure:#FEFEFE;
+    --light:#F0F0F0;
+    --heaven:#FFFFFF;
+    --footer:#20333F;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* UTILITY CLASS */
+
+.contianer{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header.topbar{
+    background:var(--secondary);
+}
+
+
+
+
+/* All Breakpoints */
+
+@media (min-width: 576px){
+    .contianer{
+        max-width: 540px;
+        
+    }
+}
+
+@media (min-width: 768px){
+    .contianer{
+        max-width: 720px;
+       
+    }
+}
+
+@media (min-width: 992px){
+    .contianer{
+        max-width: 960px;
+        
+    }
+}
+@media (min-width: 1200px){
+    .contianer{
+        max-width: 1152px;
+        
+    }
+}
