@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <link rel="stylesheet" href="./static/css/style.css">
     <title>Food App</title>
 </head>
 <body>
     <header class="topbar">
-        <div class="contianer">
+        <div class="container flex items-center justify-between">
             <div class="icons">
                 <a href="#"><img src="./static/icons/facebook.svg" alt="Facebook"/></a>
                 <a href="#"><img src="./static/icons/twitter.svg" alt="Twitter"/></a>
@@ -16,7 +18,7 @@
                 <a href="#"><img src="./static/icons/instagram.svg" alt="Instagram"/></a>
                 <a href="#"><img src="./static/icons/search.svg" alt="search"/></a>
             </div>
-            <div class="auth">
+            <div class="auth flex items-center justify-between">
                 <div>
                     <img src="./static/icons/user-icon.svg" alt="login">
                     <a href="#">Log In</a>
@@ -31,9 +33,185 @@
                     <img src="./static/icons/cart.svg" alt="">
                     <a href="#">0 Items - ($0.00)</a>
                 </div>
-                <span class="divider">|</span>
+                
             </div>
         </div>
     </header>
+    <nav>
+        <div class="top">
+            <div class="container flex items-center justify-between">
+                <div class="contact flex items-center justify-between">
+                    <img src="./static/icons/phone.svg" alt="Phone">
+                    <div>
+                        <h5>Call: +8801758901595</h5>
+                        <h5>Email: muraddurjoy29@gmail.com</h5>
+                    </div>
+                </div>
+                <div class="branding">
+                    <img src="./static/icons/logo.svg" alt="logo">
+                </div>
+                <div class="time flex items-center justify-between">
+                    <img src="./static/icons/clock.svg" alt="logo">
+                    <div>
+                        <h5>Working Hours</h5>
+                        <h5>Mon - Sat (8.00am - 12.00am)</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar magic-shadow">
+            <div class="container flex justify-center">
+                <a href="#" class="active">Home</a>
+                <a href="#">About us</a>
+                <a href="#">Products</a>
+                <a href="#">Blog</a>
+                <a href="#">Shop</a>
+                <a href="#">Services</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero flex items-center"> 
+        <div class="container">
+            <div class="welcome flex items-center">
+                <span>Welcome to</span>
+                <img src="./static/icons/logo-2.svg" alt="logo2">
+            </div>
+            <h1>The World Best <span>Shopping</span> Websit</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, sit. Illum, necessitatibus? Laborum quasi aut quo suscipit! Porro minus illum, debitis eaque repellat ipsam eveniet dolorum autem a, expedita blanditiis.</p>
+            <div>
+                <button class="btn btn-primary">Read More</button>
+                <button class="btn btn-secondary">Shop Now</button>
+            </div>
+            <div class="hero-img">
+                <img src="./static/images/straw.png" alt="S">
+            </div>
+        </div>   
+    </header>
+
+    <section class="top-products">
+        <div class="container">
+            <h1 class="section-heading">Top Products</h1>
+            <div class="slider">
+                <button class="slider-btn prev-btn"><img src="./static/icons/pre.svg" alt=""></button>
+                <button class="slider-btn next-btn"><img src="./static/icons/next.svg" alt=""></button>
+                <div class="food-slider">
+                    <div class="food-card magic-shadow-sm">
+                        <div class="product-img flex items-center justify-center">
+                            <img src="./static/images/plate-1.png" alt="">
+                        </div>
+                        <hr>
+                        <div>
+                            <h2 class="text-center">Summer Salad</h2>
+                            <div class="stars flex justify-center items-center">
+                                <img src="./static/icons/start-filled.svg" alt="sf">
+                                <img src="./static/icons/start-filled.svg" alt="sf">
+                                <img src="./static/icons/start-filled.svg" alt="sf">
+                                <img src="./static/icons/star-grey.svg" alt="sf">
+                                <img src="./static/icons/star-grey.svg" alt="sf">
+                            </div>
+                            <div class="price text-center">
+                                $ 1.25 
+                            </div>
+                            <div class="flex justify-center items-center">
+                                <button>
+                                    <img src="./static/icons/cart-2.svg" alt="ct">
+                                    <span>Add to Cart</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-card magic-shadow-sm">
+                        <div class="product-img flex items-center justify-center">
+                            <img src="./static/images/plate-2.png" alt="">
+                        </div>
+                        <hr>
+                        <div>
+                            <h2 class="text-center">Summer Salad</h2>
+                            <div class="stars flex justify-center items-center">
+                                <img src="./static/icons/start-filled.svg" alt="sf">
+                                <img src="./static/icons/start-filled.svg" alt="sf">
+                                <img src="./static/icons/start-filled.svg" alt="sf">
+                                <img src="./static/icons/star-grey.svg" alt="sf">
+                                <img src="./static/icons/star-grey.svg" alt="sf">
+                            </div>
+                            <div class="price text-center">
+                                $ 1.25 
+                            </div>
+                            <div class="flex justify-center items-center">
+                                <button>
+                                    <img src="./static/icons/cart-2.svg" alt="ct">
+                                    <span>Add to Cart</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-card magic-shadow-sm">
+                        <div class="product-img flex items-center justify-center">
+                            <img src="./static/images/plate-3.png" alt="">
+                        </div>
+                        <hr>
+                        <div>
+                            <h2 class="text-center">Summer Salad</h2>
+                            <div class="stars flex justify-center items-center">
+                                <img src="./static/icons/start-filled.svg" alt="sf">
+                                <img src="./static/icons/start-filled.svg" alt="sf">
+                                <img src="./static/icons/start-filled.svg" alt="sf">
+                                <img src="./static/icons/star-grey.svg" alt="sf">
+                                <img src="./static/icons/star-grey.svg" alt="sf">
+                            </div>
+                            <div class="price text-center">
+                                $ 1.25 
+                            </div>
+                            <div class="flex justify-center items-center">
+                                <button>
+                                    <img src="./static/icons/cart-2.svg" alt="ct">
+                                    <span>Add to Cart</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-card magic-shadow-sm">
+                        <div class="product-img flex items-center justify-center">
+                            <img src="./static/images/plate-1.png" alt="">
+                        </div>
+                        <hr>
+                        <div>
+                            <h2 class="text-center">Winter Salad</h2>
+                            <div class="stars flex justify-center items-center">
+                                <img src="./static/icons/start-filled.svg" alt="sf">
+                                <img src="./static/icons/start-filled.svg" alt="sf">
+                                <img src="./static/icons/start-filled.svg" alt="sf">
+                                <img src="./static/icons/star-grey.svg" alt="sf">
+                                <img src="./static/icons/star-grey.svg" alt="sf">
+                            </div>
+                            <div class="price text-center">
+                                $ 1.25 
+                            </div>
+                            <div class="flex justify-center items-center">
+                                <button>
+                                    <img src="./static/icons/cart-2.svg" alt="ct">
+                                    <span>Add to Cart</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="text-center btn-wrapper">
+                <button class="btn btn-secondary">
+                    View More
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>			  
+    <script src="static/js/app.js"></script>
 </body>
 </html>
